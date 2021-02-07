@@ -1,0 +1,12 @@
+[package]
+name = "crawl-rs"
+version = "0.1.0"
+authors = ["daite <blueskykind02@yahoo.co.jp>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.11", features = ["blocking"]}
+select = "0.5.0"
+url = "2.2.0"
